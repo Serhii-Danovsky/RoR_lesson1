@@ -15,7 +15,6 @@ nume = 1_000_000
 p "#{array}"
 p "#{new_array}"
 
-
 p "#{num}"
 p "#{nume}"
 
