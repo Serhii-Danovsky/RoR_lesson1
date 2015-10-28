@@ -5,8 +5,17 @@ max=array.index(array.max)
 new_array= array.dup
 new_array[min],new_array[max]=array.max,array.min
 
-p "#{array}"p "#{array}"p "#{array}"
 
+# плохо (Сколько тут нолей?)
+num = 1000000
 
-p "#{array}"p "#{array}"p "#{array}"
+# хорошо (число воспринимается гораздо легче)
+nume = 1_000_000
+
+p "#{array}"
 p "#{new_array}"
+
+
+p "#{num}"
+p "#{nume}"
+
